@@ -184,7 +184,7 @@
 							<goal>jar</goal>
 						</goals>
 						<configuration>
-							<showPackage>false</showPackage>
+<!--							<showPackage>false</showPackage>-->
 							<additionalparam>-tag inheritDoc:X ${disableDoclint}</additionalparam>
 						</configuration>
 					</execution>
@@ -195,7 +195,7 @@
 						&lt;a
 						href="http://creativecommons.org/licenses/by-sa/3.0/" &gt;Creative Commons Attribution-Share Alike 3.0 License.
 						&lt;/a&gt; </bottom>
-					<showPackage>false</showPackage>
+<!--					<showPackage>false</showPackage>-->
 					<additionalparam>-tag inheritDoc:X ${disableDoclint}</additionalparam>
 				</configuration>
 			</plugin>
